@@ -1,0 +1,226 @@
+<p>  
+   
+   <head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+ body {
+   margin: 0;
+   font-family: helvetica;
+ }
+
+ .topnav {
+   overflow: hidden;
+   background-color: #333;
+ }
+
+ .topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+
+ .topnav a:hover {
+   background-color: #2F2F2F;
+   color: #805F8E;
+ }
+
+ .topnav a.active {
+   background-color: #4CAF50;
+   color: white;
+ }
+   
+   .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+   
+ </style>
+ </head>
+ <body>
+
+ <div class="topnav">
+   <div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">🏝 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+    <a href="#home">jack's website</a>
+</div>
+
+
+ </div>
+
+ </body>
+   
+ <head>
+     <style>
+       h1 {
+       		text-align: center;
+       		font-family: helvetica;
+       		color: black;
+       }
+       
+       p {
+       		font-family: helvetica;
+       		color: black;
+       		
+       }
+       
+     </style>
+
+ </h1>
+ <head>
+   <style>
+     
+     body {
+     	background-color: #F0F0F0;
+     }
+     
+     ul {
+     	list-style-type: none;
+     	margin: 0;
+     	padding: 0;
+     	width: 200px;
+     	background-color: #F4F1EB;
+     	font-family: helvetica;
+ 	}
+
+ 	li a {
+     	display: block;
+     	color: #000000;
+     	padding: 8px 16px;
+     	text-decoration: none;
+ 	}
+
+
+ 	li a:hover {
+     	background-color: #F0F0FF;
+    		color: black;
+     }
+     
+   </style>
+ </head>
+   
+ <head>
+ <style>
+ .dropbtn {
+     background-color: #4CAF50;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+ }
+
+ .dropdown {
+     position: relative;
+     display: inline-block;
+ }
+
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #333;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+ }
+
+ .dropdown-content a {
+     color: #F2F2F2;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+ }
+
+ .dropdown-content a:hover {background-color: #2F2F2F}
+
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+
+ .dropdown:hover .dropbtn {
+     background-color: #3e8e41;
+ }
+ </style>
+ </head>
+ <body>
+<p><img style="width: 250px; height: 125px; float: center;" src="https://www.oxy.edu/sites/default/files/styles/department_regular/public/mp.jpg?itok=azygp9pA" alt="Home (Oxy)"/></p>
+
+
+
+ </body>
+
+
+     
+ <ul id="nav" class="hidden-print">
+ <li><a href="https://www.google.com/doodles">click on me!</a></li>
+ <li><a href="https://my.oxy.edu/cp/home/displaylogin">click on me!</a></li>
+ <li><a href="https://www.nhl.com/sharks">click on me!</a></li>
+ </ul>
+
